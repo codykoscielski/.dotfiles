@@ -459,7 +459,7 @@ setup_github() {
 # Heres the meat and potatoes, our bare repo will be unpacked
 setup_git_repo() {
     printf "\r\e[K\e[34m🛠️ Setting up Git repo... \e[0m"
-    local dotfiles_repo="https://github.com/linkinlog/.dotfiles"
+    local dotfiles_repo="https://github.com/codykoscielski/.dotfiles"
     local dotfiles_dir="$HOMEDIR/.dotfiles.git"
     local config_cmd="git --git-dir=$dotfiles_dir --work-tree=$HOMEDIR"
 
