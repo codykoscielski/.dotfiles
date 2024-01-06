@@ -1,5 +1,5 @@
 -- Pick an image
-local image = "space-astronaut.jpg"
+local image = "cat.jpg"
 -- Path env var is HOME on unix and HOMEPATH on windows
 local home = os.getenv( "HOME" ) or os.getenv( "HOMEPATH" )
 local fullPath = home .. "/.config/wezterm/backgrounds/" .. image
@@ -35,7 +35,7 @@ config.background = {
     }
 }
 
-config.color_scheme = "Dracula (Official)"
+config.color_scheme = "Catppuccin Mocha"
 config.use_fancy_tab_bar = false
 
 return config
